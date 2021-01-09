@@ -11,7 +11,8 @@
 
 # so, lets put all our questions into a list
 
-questionList = ("question1", "question2", "question3")  #  You put real text in and fill out all 15
+#questionList = ("1", "question2", "question3")  #  You put real text in and fill out all 15
+#answerList = (nul, "You get arrested and go to jail", "other answer if you don't kill the pedestrian" ........)
 
 # Next, to make things easier, lets make all questions be either be 1 or 2, so for the first question:
 # "Do you walk accross the street?":  "Answer with 1: yes and 2: no"
@@ -24,6 +25,7 @@ questionList = ("question1", "question2", "question3")  #  You put real text in 
 # and I will then define more of this problem for you
 
 
+"""
 
 
 print("Welcome to Choose Your Own Adventure!")
@@ -32,17 +34,6 @@ print("Make sure to type your answer exactly how it is printed in the question!"
 print(" ")
 print(" ")
 print("Do you walk across the street?")
-
-
-
-
-
-
-
-
-
-
-"""
 
 choice = input("yes or no?")
 if choice == 'yes':
@@ -116,3 +107,19 @@ print("Game Over!")
 print("Thanks for playing...")
 
 """
+
+#########
+
+questionList = .....
+answerList = .....
+n=1
+while(n<=15):
+  answer = input(question_list[n])
+  if answer == 1:
+     print(answer[2*n]
+     n=2*n
+  else:
+     print(answer[2*n+1]
+     n=2*n + 1
+
+##########
